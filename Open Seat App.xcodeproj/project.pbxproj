@@ -13,11 +13,12 @@
 		8E23BCB5219ED40100173EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCB4219ED40100173EBA /* Assets.xcassets */; };
 		8E23BCB8219ED40100173EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCB6219ED40100173EBA /* LaunchScreen.storyboard */; };
 		8E23BCC0219EE07600173EBA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCBF219EE07600173EBA /* GoogleService-Info.plist */; };
+		8E23BCC2219EE81400173EBA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCC1219EE81400173EBA /* Default-568h@2x.png */; };
 		904AD6DAD162EAB51EE8C78D /* Pods_Open_Seat_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6A705A0B0DB2261DB69A8F /* Pods_Open_Seat_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E23BCAA219ED3FF00173EBA /* OpenSeatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSeatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E23BCAA219ED3FF00173EBA /* Open Seat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Seat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E23BCAD219ED3FF00173EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E23BCAF219ED3FF00173EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E23BCB2219ED3FF00173EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -25,6 +26,7 @@
 		8E23BCB7219ED40100173EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E23BCB9219ED40100173EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E23BCBF219EE07600173EBA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E23BCC1219EE81400173EBA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C701F0DE061EE2BA4E61D835 /* Pods-Open Seat App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open Seat App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open Seat App/Pods-Open Seat App.debug.xcconfig"; sourceTree = "<group>"; };
 		C8713FBB33BCDAFF3FB401F9 /* Pods-Open Seat App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open Seat App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open Seat App/Pods-Open Seat App.release.xcconfig"; sourceTree = "<group>"; };
 		FD6A705A0B0DB2261DB69A8F /* Pods_Open_Seat_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_Seat_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +64,8 @@
 		8E23BCA1219ED3FF00173EBA = {
 			isa = PBXGroup;
 			children = (
-				8E23BCAC219ED3FF00173EBA /* OpenSeatApp */,
+				8E23BCC1219EE81400173EBA /* Default-568h@2x.png */,
+				8E23BCAC219ED3FF00173EBA /* Open Seat App */,
 				8E23BCAB219ED3FF00173EBA /* Products */,
 				259BC7F496D21A6E89D8F961 /* Pods */,
 				6F6D719489602EC4E0F193D4 /* Frameworks */,
@@ -72,12 +75,12 @@
 		8E23BCAB219ED3FF00173EBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E23BCAA219ED3FF00173EBA /* OpenSeatApp.app */,
+				8E23BCAA219ED3FF00173EBA /* Open Seat App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E23BCAC219ED3FF00173EBA /* OpenSeatApp */ = {
+		8E23BCAC219ED3FF00173EBA /* Open Seat App */ = {
 			isa = PBXGroup;
 			children = (
 				8E23BCBF219EE07600173EBA /* GoogleService-Info.plist */,
@@ -88,15 +91,15 @@
 				8E23BCB6219ED40100173EBA /* LaunchScreen.storyboard */,
 				8E23BCB9219ED40100173EBA /* Info.plist */,
 			);
-			path = OpenSeatApp;
+			path = "Open Seat App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E23BCA9219ED3FF00173EBA /* OpenSeatApp */ = {
+		8E23BCA9219ED3FF00173EBA /* Open Seat App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E23BCBC219ED40100173EBA /* Build configuration list for PBXNativeTarget "OpenSeatApp" */;
+			buildConfigurationList = 8E23BCBC219ED40100173EBA /* Build configuration list for PBXNativeTarget "Open Seat App" */;
 			buildPhases = (
 				F1A2958644878D646D8B6418 /* [CP] Check Pods Manifest.lock */,
 				8E23BCA6219ED3FF00173EBA /* Sources */,
@@ -108,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = OpenSeatApp;
+			name = "Open Seat App";
 			productName = "Open Seat App";
-			productReference = 8E23BCAA219ED3FF00173EBA /* OpenSeatApp.app */;
+			productReference = 8E23BCAA219ED3FF00173EBA /* Open Seat App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E23BCA5219ED3FF00173EBA /* Build configuration list for PBXProject "OpenSeatApp" */;
+			buildConfigurationList = 8E23BCA5219ED3FF00173EBA /* Build configuration list for PBXProject "Open Seat App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E23BCA9219ED3FF00173EBA /* OpenSeatApp */,
+				8E23BCA9219ED3FF00173EBA /* Open Seat App */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +157,7 @@
 				8E23BCB8219ED40100173EBA /* LaunchScreen.storyboard in Resources */,
 				8E23BCC0219EE07600173EBA /* GoogleService-Info.plist in Resources */,
 				8E23BCB5219ED40100173EBA /* Assets.xcassets in Resources */,
+				8E23BCC2219EE81400173EBA /* Default-568h@2x.png in Resources */,
 				8E23BCB3219ED3FF00173EBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E23BCA5219ED3FF00173EBA /* Build configuration list for PBXProject "OpenSeatApp" */ = {
+		8E23BCA5219ED3FF00173EBA /* Build configuration list for PBXProject "Open Seat App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E23BCBA219ED40100173EBA /* Debug */,
@@ -409,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E23BCBC219ED40100173EBA /* Build configuration list for PBXNativeTarget "OpenSeatApp" */ = {
+		8E23BCBC219ED40100173EBA /* Build configuration list for PBXNativeTarget "Open Seat App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E23BCBD219ED40100173EBA /* Debug */,
