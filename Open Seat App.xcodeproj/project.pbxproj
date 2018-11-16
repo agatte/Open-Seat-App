@@ -11,7 +11,6 @@
 		8E23BCB0219ED3FF00173EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E23BCAF219ED3FF00173EBA /* ViewController.swift */; };
 		8E23BCB3219ED3FF00173EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCB1219ED3FF00173EBA /* Main.storyboard */; };
 		8E23BCB5219ED40100173EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCB4219ED40100173EBA /* Assets.xcassets */; };
-		8E23BCB8219ED40100173EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCB6219ED40100173EBA /* LaunchScreen.storyboard */; };
 		8E23BCC0219EE07600173EBA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCBF219EE07600173EBA /* GoogleService-Info.plist */; };
 		8E23BCC2219EE81400173EBA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E23BCC1219EE81400173EBA /* Default-568h@2x.png */; };
 		904AD6DAD162EAB51EE8C78D /* Pods_Open_Seat_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6A705A0B0DB2261DB69A8F /* Pods_Open_Seat_App.framework */; };
@@ -23,7 +22,6 @@
 		8E23BCAF219ED3FF00173EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E23BCB2219ED3FF00173EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E23BCB4219ED40100173EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E23BCB7219ED40100173EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E23BCB9219ED40100173EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E23BCBF219EE07600173EBA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8E23BCC1219EE81400173EBA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 				8E23BCAF219ED3FF00173EBA /* ViewController.swift */,
 				8E23BCB1219ED3FF00173EBA /* Main.storyboard */,
 				8E23BCB4219ED40100173EBA /* Assets.xcassets */,
-				8E23BCB6219ED40100173EBA /* LaunchScreen.storyboard */,
 				8E23BCB9219ED40100173EBA /* Info.plist */,
 			);
 			path = "Open Seat App";
@@ -154,7 +151,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E23BCB8219ED40100173EBA /* LaunchScreen.storyboard in Resources */,
 				8E23BCC0219EE07600173EBA /* GoogleService-Info.plist in Resources */,
 				8E23BCB5219ED40100173EBA /* Assets.xcassets in Resources */,
 				8E23BCC2219EE81400173EBA /* Default-568h@2x.png in Resources */,
@@ -234,14 +230,6 @@
 				8E23BCB2219ED3FF00173EBA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8E23BCB6219ED40100173EBA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E23BCB7219ED40100173EBA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

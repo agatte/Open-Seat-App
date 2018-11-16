@@ -34,8 +34,8 @@ class TableViewController: UITableViewController {
             //need to get the value as an NSDictionary first!!!!
             let value = snapshot.value as? NSDictionary
             
-            let title = value! ["title"] as! String
-            let message = value! ["message"] as! String
+            let title = value? ["title"] as! String
+            let message = value? ["message"] as! String
             
             self.posts.insert(postStruct(title: title,message: message), at: 0)
             self.tableView.reloadData()
@@ -48,7 +48,7 @@ class TableViewController: UITableViewController {
         let title = "Title"
         let message = "Message"
         
-        let post : [String : AnyObject] = ["title" : title as          AnyObject,
+        let post : [String : AnyObject] = ["title" : title as AnyObject,
                                            "message" : message as AnyObject]
         
         let databaseRef = Database.database().reference()
@@ -56,15 +56,19 @@ class TableViewController: UITableViewController {
                                             //(post) = value: AnyObject?
         databaseRef.child("Posts").childByAutoId().setValue(post)
         
-        
     }
+    //gets rid of any resources that can be recreated
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+
         //var for let?
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
         //reference the things inside of the cell
@@ -74,7 +78,6 @@ class TableViewController: UITableViewController {
         //label tag is 2
         let label2 = cell?.viewWithTag(2) as! UILabel
         label2.text = posts[indexPath.row].message
-        
         
         return cell!
     }
